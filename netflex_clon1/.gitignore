@@ -22,3 +22,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+.env
+# Ensure all text files use LF line endings
+* text=auto eol=lf
+
+# Specific file types can have different settings
+*.bat eol=crlf
+*.sh eol=lf
